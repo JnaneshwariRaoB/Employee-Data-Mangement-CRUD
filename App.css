@@ -1,0 +1,119 @@
+
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+p {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #d83737;
+}
+
+
+#about, #projects, #skills, #contact {
+  margin-top: 40px;
+}
+
+
+.homepage {
+  text-align: center;
+}
+
+.homepage img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+
+
+
+.App
+{
+  background-color: #5f5454; 
+  padding: 150px ; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.AppIn
+{
+  
+  padding: 20px;
+  background-color: #ebe1e1; 
+  border: 10px solid rgba(224, 66, 66, 0.2);
+    box-shadow: 20px 20px 20px rgba(11, 1, 1, 0.2);
+    min-height: 20vh;
+     position: relative;
+}
+
+.table-hover
+{
+  background-color: #ebe1e1;
+    display: absolute;
+    justify-content: center ; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    min-height: 30vh;/* Set minimum height of the container to full viewport height */
+    margin-top: 50pX;
+    border: 10px solid rgba(195, 51, 51, 0.283);
+    box-shadow: 20px 20px 20px rgba(11, 1, 1, 0.2);
+    
+  
+}
+.th{
+  text-align: center;
+  background:auto;
+  
+}
+
+
+.table-heading {
+  background-color: b;
+  font-family: 'Times New Roman', Times, serif;
+  text-align:center;
+  color:rgb(224, 210, 212);
+}
+.page-heading {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 10px; /* Padding around the text */
+  border-bottom: 2px solid #ccc; /* Border */
+}
+
